@@ -25,7 +25,7 @@ jobs:
         python -m pip install --upgrade pip
         sudo git clone https://github.com/nityanand86876/python_hcf.git
         cd python_hcf
-        sudo curl -s https://install.speedtest.net/app/cli/install.deb.sh | sudo bash && sudo apt-get install speedtest && speedtest --accept-licence
+        sudo curl -s https://install.speedtest.net/app/cli/install.deb.sh | sudo bash && sudo apt-get install speedtest && speedtest --accept-license
         python find_hcf.py
         python find_hcf.py
         python find_hcf.py
